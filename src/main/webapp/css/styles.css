@@ -1,0 +1,41 @@
+/*Some css so the website doesn't look that ugly*/
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rajdhani', sans-serif;
+}
+html{
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+}
+body{
+    background-color: white;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+}
+#login-form{
+    background-color: whitesmoke;
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #9d9d9d;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+input{
+    margin: 7px;
+    padding: 5px;
+}
+
+.buttons{
+    border: none;
+    background-color: #537895;
+    color: white;
+    padding: 15px 0;
+    width: 100px;
+    border-radius: 5px;
+}
+
