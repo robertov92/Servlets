@@ -7,7 +7,7 @@
 <body>
 <%--The secret.jsp can only be shown once a user has logged in--%>
 <%
-    // Prevents user from back to this page using the back button
+    // Prevents user from comming back to this page using the back button
     response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate"); // HTTP 1.1
     response.setHeader("Pragma", "no-cache");                                   // HTTP 1.0
     response.setHeader("Expires", "0");                                         // Proxies
